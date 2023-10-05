@@ -1,0 +1,275 @@
+!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="png" href="images/icon/book.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+<title>~KAHE~</title>
+<meta name="desciption" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script>
+$(window).on('scroll', function(){
+  if($(window).scrollTop()){
+   $('nav').addClass('black');
+  }else {
+    $('nav').removeClass('black');
+  }
+})
+</script>
+
+</head>
+<body>
+<!-- Navigation Bar -->
+<header id="header">
+<nav>
+<div class="logo"><img src="images/icon/main.png" alt="logo"></div>
+<ul>
+<li><a class="active" href="">Home</a></li>
+<li><a href="#about_section">About</a></li>
+<li><a href="#team_section">Reviews</a></li>
+<li><a href="#services_section">Top Companies</a></li>
+<li><a href="#contactus_section">Feedback</a></li>
+</ul>
+<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search1.png" alt="search" onclick=slide()></div>
+<a class="get-started" href="login.html">Get Started</a>
+<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+</nav>
+<div class="head-container">
+<div class="quote">
+<p>The future belongs to those who believe in the beauty of their dreams</p>
+<h5>Don't practice until you get it right. Practice until you can't get it wrong</h5>
+<div class="play">
+<img src="images/icon/pot.png" alt="play"><span><a href="https://youtu.be/jKN5z7uwDuw" target="_blank">Watch Now</a></span>
+</div>
+</div>
+<div class="svg-image">
+<img src="images/icon/svg.jpg.jpg" alt="svg">
+</div>
+</div>
+<div class="side-menu" id="side-menu">
+<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+<div class="user">
+<img src="images/extra/dhanapal.jpg" alt="Username">
+<p>Dhanapal M</p>
+</div>
+<ul>
+<li><a href="#about_section">Home</a></li>
+<li><a href="#about_section">About</a></li>
+<li><a href="#team_section">Reviews</a></li>
+<li><a href="#services_section">Top Companies</a></li>
+<li><a href="#feedBACK">Feedback</a></li>
+</ul>
+</div>
+</header>
+
+
+<!-- Some Popular Subjects -->
+<br>
+<br>
+<div class="title" >
+<span id="cc">Popular Subjects on KAHE</span>
+</div>
+<br><br>
+<div class="course">
+<center><div class="cbox">
+<div class="det"><a href="https://www.w3schools.com/c/c_intro.php"><img src="images/courses/c2.png">C</a></div>
+<div class="det"><a href="https://www.w3schools.com/cpp/default.asp"><img src="images/courses/c++.png">C++</a></div>
+<div class="det"><a href="https://www.w3schools.com/java/default.asp"><img src="images/courses/java.png">Java</a></div>
+<div class="det"><a href="https://www.w3schools.com/python/default.asp"><img src="images/courses/python.png">Python</a></div>
+</div></center>
+<div class="cbox">
+<div class="det"><a href="https://www.w3schools.com/html/default.asp"><img src="images/courses/html.png">HTML</a></div>
+<div class="det"><a href="https://www.w3schools.com/css/default.asp"><img src="images/courses/css.png">CSS</a></div>
+<div class="det"><a href="https://www.w3schools.com/sql/default.asp"><img src="images/courses/sql.png">SQL</a></div>
+<div class="det det-last"><a href="https://www.w3schools.com/js/default.asp"><img src="images/courses/js.png">Java Script</a></div>
+</div>
+            <div class="cbox">
+<div class="det"><a href="https://www.w3schools.com/cs/index.php"><img src="images/courses/sharp.png">C#</a></div>
+<div class="det"><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp"><img src="images/courses/boot.png">BootStrap</a></div>
+<div class="det"><a href="https://www.w3schools.com/react/default.asp"><img src="images/courses/rjs.png">React JS</a></div>
+<div class="det det-last"><a href="https://www.w3schools.com/php/default.asp"><img src="images/courses/php.png">PHP</a></div>
+</div>
+</div>
+
+
+<!-- ABOUT -->
+<div class="diffSection" id="about_section">
+<center><p style="font-size: 50px; padding: 100px">About</p></center>
+<div class="about-content">
+<div class="side-image">
+<img class="sideImage" src="images/extra/karpagam.jpg">
+</div>
+<div class="side-text">
+<h2>What you think about us ?</h2>
+<p>Karpagam Academy of Higher Education (KAHE) is an educational institution located in Coimbatore Tamil Nadu, India.<br> It was established under Section 3 of UGC Act 1956 is approved by Ministry of Human Resource and Development, Government of India.<br>Dr.R.Vasanthakumar, the president of the trust a philanthropist, industrialist, entrepreneur and culture promoter.<br>The academy has 9000 students and over 750 teaching and non-teaching staff.<br>The Karpagam Academy of Higher Education campus exemplifies excellence in every nook and corner. From modern classrooms to hygienic canteens, the highest emphasis is laid on ensuring that student life is enriching in every sense.</p>
+</div>
+</div>
+</div>
+
+
+<!-- PORTFOLIO -->
+<div class="diffSection" id="portfolio_section">
+<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Placement</p></center>
+<div class="content">
+<p>
+“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+</p>
+</div>
+</div>
+<div class="extra">
+<p>We're increasing this data every year</p>
+<div class="smbox">
+<span><center><div class="data">9000</div><div class="det">Students</div></center></span>
+<span><center><div class="data">61</div><div class="det">Total Courses</div></center></span>
+<span><center><div class="data">1182</div><div class="det">Placed Students</div></center></span>
+<span><center><div class="data">134</div><div class="det">Companies</div></center></span>
+</div>
+</div>
+
+
+<!-- SERVICES -->
+<div class="service-swipe">
+<div class="diffSection" id="services_section">
+<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Top Companies</p></center>
+</div>
+<a href="https://prepinsta.com/zoho/exam-pattern/"><div class="s-card"><img src="images/icon/zoho.png"><p>Zoho Corporation</p></div></a>
+<a href="https://prepinsta.com/infosys/eligibility-criteria/"><div class="s-card"><img src="images/icon/infosys.png"><p>Infosys</p></div></a>
+<a href="https://prepinsta.com/wipro-nlth/recruitment-process/"><div class="s-card"><img src="images/icon/wipro.png"><p>Wipro</p></div></a>
+<a href="https://prepinsta.com/cognizant-genc-next/recruitment-process/"><div class="s-card"><img src="images/icon/cog.png"><p>Cognizant</p></div></a>
+<a href="https://prepinsta.com/tcs/recruitment-process/"><div class="s-card"><img src="images/icon/tcs.png"><p>TCS</p></div></a>
+<a href="https://prepinsta.com/ibm/recruitment-process/"><div class="s-card"><img src="images/icon/ibm.png"><p>IBM</p></div></a>
+<a href="https://prepinsta.com/accenture/recruitment-process/"><div class="s-card"><img src="images/icon/acc.png"><p>Accenture</p></div></a>
+<a href="https://www.payoda.com/careers/"><div class="s-card"><img src="images/icon/payoda.png"><p>Payoda</p></div></a>
+</div>
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+<a href="#review_section"><img src="images/icon/downd.png"></a>
+</div>
+<div class="review">
+<div class="diffSection" id="review_section">
+<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Students Say About Us?</p></center>
+</div>
+<div class="rev-container">
+
+<div class="rev-card">
+<div class="identity">
+<img src="images/extra/praveen.jpg"><p>Praveen Kumar S</p>
+<h6>Java/C++</h6>
+<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+</div>
+<div class="rev-cont">
+<p id="title">Review:</p>
+<p id="content">
+The placements at our college is quite impressive. Mostly all students get placed in top companies around the country. Average package is around 5 to 6LPA based on the student and company.Teachers were supportive throughout the campus placement...
+</p>
+</div>
+</div>
+<div class="rev-card">
+<div class="identity">
+<img src="images/extra/prasanna.jpg"><p>Prasanna B</p>
+<h6>C/Java</h6>
+<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+</div>
+<div class="rev-cont">
+<p id="title">Review:</p>
+<p id="content">
+Placements are provided by the college. The placements are good. For placement purpose i will suggest you to go for this college and also to gain more knowledge and enhance your skills and get a chance to work...
+</p>
+</div>
+</div>
+<div class="rev-card">
+<div class="identity">
+<img src="images/extra/dhanapal.jpg"><p>Dhanapal M</p>
+<h6>Html/Css</h6>
+<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+</div>
+<div class="rev-cont">
+<p id="title">Review:</p>
+<p id="content">
+Our College is top most priority for the companies and also provide high end packages: 70% of the students get placed. Our College is very supportive in terms of placement and provide so much of training in aptitude and programming also...
+</div>
+</div>
+<div class="rev-card">
+<div class="identity">
+<img src="images/extra/midhun.jpg"><p>Midhun Vs</p>
+<h6>Python</h6>
+<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+</div>
+<div class="rev-cont">
+<p id="title">Review:</p>
+<p id="content">
+Placements are so good. Average package offered by the college is very nice .Almost 70% of Placements are provided , that is a good point and the packages offered are also good. Nice placement and good skill.</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- FEEDBACK -->
+<div class="title2" id="feedBACK">
+<span>Give Feedback</span>
+<div class="shortdesc2">
+<p>Please share your valuable feedback to us</p>
+</div>
+</div>
+
+<div class="feedbox">
+<div class="feed">
+<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+<label>Your Name</label><br>
+<input type="text" name="" class="fname" required="required"><br>
+<label>Email</label><br>
+<input type="email" name="mail" required="required"><br>
+<label>Additional Details</label><br>
+<textarea name="addtional"></textarea><br>
+<button type="submit" id="csubmit">Send Message</button>
+</form>
+</div>
+</div>
+
+<!-- Sliding Information -->
+<marquee style="background: linear-gradient(to right, #008000, #004d00); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
+
+<!-- FOOTER -->
+<footer>
+<div class="footer-container">
+<div class="left-col">
+<img src="images/icon/main.png" style="width: 200px;">
+<div class="logo"></div>
+<div class="social-media">
+<a href="#"><img src="images/icon\fblogo.png"></a>
+<a href="#"><img src="images/icon\iglogo.png"></a>
+<a href="#"><img src="images/icon\twit.png"></a>
+<a href="#"><img src="images/icon\yt.png"></a>
+<a href="#"><img src="images/icon\in.png"></a>
+</div><br><br>
+<br><p><img src="images/icon/location.png"> Karpagam Academy of Higher Education<br>Eachanari Post, Coimbatore - 641 021</p><br>
+<p><img src="images/icon/phone.png"> +91-422 – 2980011 – 14<br><img src="images/icon/mail.png">&nbsp; info@kahedu.edu.in</p>
+<br><br>
+<p class="rights-text">Copyright © 2023 Created By Dhanapal M</p>
+<br>
+<a href="dhanapal\index-1.html"class="get-started1" href="login.html">More About Me</a>
+</div>
+<div class="right-col">
+<h1 style="color: #fff">Our Updates</h1>
+<div class="border"></div><br>
+<p>Enter Your Email to get our Regular updates.</p>
+<form class="newsletter-form">
+<input class="txtb" type="email" placeholder="Enter Your Email">
+<input class="btn" type="submit" value="Submit">
+</form>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
